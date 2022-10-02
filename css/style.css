@@ -513,9 +513,7 @@ height: 90vh;
   margin-top: 80px;
 }
 form input{
-  padding-left: 2rem;
-  padding-right: 0;
-  width: 80%;
+  width: 60%;
   height: 45px;
   min-height: 30px;
   border-bottom-left-radius: 10px;
@@ -523,8 +521,21 @@ border-bottom-right-radius: 10px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 box-shadow: rgb(214, 214, 214) 1px 2px 8px 0px;
-padding: 3px;
-margin: 6px;
+margin: 10px auto;
+
+}
+
+textarea{
+
+  width: 60%;
+  height: calc(45px * 5);
+  min-height: 30px;
+  border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: rgb(214, 214, 214) 1px 2px 8px 0px;
+margin: 10px auto;
 }
 form label{
   padding: 10px;
