@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios y Etiquietas semánticas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../css/style.css">
+    <style>
+
+
+    </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="amar.html">Amar <img class="imgBrand" src="./../img/logo/AMORanimalBoedo_bg01.png"></a>
+    <a href="cuidar.html">Cuidar</a>
+    <a href="donar.html">Donar</a>
+    <a href="contacto.html">Contacto</a>
+
+</nav> 
+    <header>
+        <h1>Formularios y Etiquietas semánticas</h1>
+    </header>
+    <main>
+        <h2>Formularios</h2>
+        <form action="" method="GET">
+            <label>
+                Nombre
+                <input type="text" name="Nombre" maxlength="10" placeholder="Ingrese su nombre">
+            </label>
+    
+            <label>
+                Apellido
+                <input type="text" name="Apellido" maxlength="20" placeholder="Ingrese su apellido">
+            </label>
+    
+            <label>
+                Edad
+                <input id="Edad" type="number" name="Edad" min="18" max="199">
+            </label>
+    
+            <label>
+                email
+                <input id="Email" type="email" name="Email" required placeholder="mail_de_ejemplo@gmail.com">
+            </label>
+    
+            <label>
+                Contraseña
+                <input id="Password" type="password" name="Password" required>
+            </label>
+            
+            <fieldset>
+                <legend>Vehiculo/s</legend>
+                <label>
+                    Auto
+                    <input type="checkbox" name="Vehiculo" value="Auto">
+                </label>
+                <label>
+                    Moto
+                    <input type="checkbox" name="Vehiculo" value="Moto">
+                </label>
+                <label>
+                    Bici
+                    <input type="checkbox" name="Vehiculo" value="Bici">
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Comida favorita</legend>
+                <p>
+                    Pizza
+                    <input type="radio" name="ComidaFavorita" value="Pizza">
+                </p>
+                <label>
+                    Empanada
+                    <input type="radio" name="ComidaFavorita" value="Empanada">
+                </label>
+                <label>
+                    Hamburgesa
+                    <input type="radio" name="ComidaFavorita" value="Hamburgesa">
+                </label>
+            </fieldset>
+    
+            <textarea name="Comentario"></textarea>
+    
+            <label for="Pais">Seleccione un Pais</label>
+            <select id="Pais" name="Pais">
+
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Peru">Peru</option>
+                <option value="Chile">Chile</option>
+
+              </select>
+    
+            <label>
+                Clave personal:
+                <input type="text" value="asd813svxcv11" readonly disabled>
+            </label>
+            <!--
+                <label>
+                    Archivo
+                    <input id="Archivo" type="file">
+                </label>
+                <label>
+                    Fecha
+                    <input id="Fecha" type="date">
+                </label>
+                <label>
+                    Color picker
+                    <input id="Color" type="color">
+                </label>
+            -->
+            <input type="reset" value="Reestablecer los campos">
+            <input type="submit"value="Confirmar">
+    
+        </form>
+    </main>
+   
+  <footer>
+    <ul class="social-icons-list">
+        <li>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="#" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+        </li>
+        <li>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+
+</footer>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
